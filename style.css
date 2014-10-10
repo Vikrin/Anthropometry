@@ -1,0 +1,65 @@
+<style>
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+  border:1px solid;
+  border-color:#2E8B57;
+ }
+table tr:nth-child(odd) {
+  background-color: #E0FFFF;
+}
+table tr:nth-child(even) {
+  background-color: #FAFAD2;
+}
+
+#display{
+background-color:#AFEEEE; 
+padding: 20px;
+border:0.5px solid;
+border-radius:10px;
+font-size:20px;
+}
+
+#searching{
+background-color:#F08080; 
+padding: 15px;
+border:0.5px solid; 
+border-radius:10px;
+font-family: Georgia, serif; 
+font-size:20px;
+}
+
+#displaymean{
+background-color:#E0FFFF; 
+padding: 20px;
+border:0.5px solid; 
+border-radius:10px;
+font-size:20px;
+}
+
+#displaysd{
+background-color:#F0E68C; 
+padding: 20px;
+border:0.5px solid; 
+border-radius:10px;
+font-size:20px;
+}
+
+#Percentile{
+font-size:20px;
+font-family:Georgia,serif;
+padding:15px;
+background-color:#ADFF2F;
+border:0.5px solid; 
+border-radius:10px;
+}
+
+#result{
+font-size:50px;
+}
+
+img{
+width:350px;
+height:420px;}
+</style>
